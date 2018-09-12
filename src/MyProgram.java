@@ -24,6 +24,11 @@ public class MyProgram {
 		"by the variable secondStudent has the first " +
 		"name: " + secondStudent.firstName);
 		
+		Course IT214 = new Course();
+		
+		IT214.setCourseID(214);
+		IT214.setCourseName("Fundamentals of Software Programming");
+		
 		Book book1 = new Book();
 		book1.title = "Beginning Java";
 		book1.authors = new String[] {
